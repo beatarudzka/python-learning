@@ -14,6 +14,6 @@ print(evenNumbers)
 
 # list comprehension
 
-newListWithEvenNumbers = [number % 2 for number in a]
+newListWithEvenNumbers = [element for element in a if element % 2 == 0]
 
 print(newListWithEvenNumbers)
