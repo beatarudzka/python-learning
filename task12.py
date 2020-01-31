@@ -1,3 +1,6 @@
-class Employee:
+#Fibbonacci Sequence
 
-  def __init__(self, fi)
+a,b = 0,1
+for i in range (0, 10):
+  print a
+  a,b = b, a + b
